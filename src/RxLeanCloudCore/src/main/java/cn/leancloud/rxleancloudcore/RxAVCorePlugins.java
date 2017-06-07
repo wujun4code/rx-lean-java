@@ -7,16 +7,16 @@ package cn.leancloud.rxleancloudcore;
 public class RxAVCorePlugins {
     public static RxAVCorePlugins sharedInstance = new RxAVCorePlugins();
 
-    private IHttpClient httpClient = new OkHttpClient();
+    private IAVExecutor httpClient = new OkHttpClient();
 
-    public RxAVCorePlugins httpClient(IHttpClient _httpClient) {
+    public RxAVCorePlugins httpClient(IAVExecutor _httpClient) {
         this.httpClient = httpClient;
         return this;
     }
 
-    private IWebSocketClient webSocketClient;
+    private IAVExecutor webSocketClient;
 
-    public RxAVCorePlugins webSocketClient(IWebSocketClient _webSocketClient) {
+    public RxAVCorePlugins webSocketClient(IAVExecutor _webSocketClient) {
         this.webSocketClient = _webSocketClient;
         return this;
     }
@@ -32,7 +32,7 @@ public class RxAVCorePlugins {
 
     public ObjectController getObjectController() {
         if (objectController == null) {
-            AVExecutor executor = getAVExecutor();
+            AVExecutorSelector executor = getAVExecutor();
             AVEncoder encoder = getEncoder();
             AVDecoder decoder = getDecoder();
             objectController = new ObjectController(executor, encoder, decoder);
@@ -40,13 +40,13 @@ public class RxAVCorePlugins {
         return this.objectController;
     }
 
-    private AVExecutor avExecutor;
+    private AVExecutorSelector avExecutorSelector;
 
-    public AVExecutor getAVExecutor() {
-        if (avExecutor == null) {
-            avExecutor = new AVExecutor(this.httpClient, this.webSocketClient);
+    public AVExecutorSelector getAVExecutor() {
+        if (avExecutorSelector == null) {
+            avExecutorSelector = new AVExecutorSelector(this.httpClient, this.webSocketClient);
         }
-        return avExecutor;
+        return avExecutorSelector;
     }
 
     private AVEncoder encoder;

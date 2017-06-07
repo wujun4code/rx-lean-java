@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RxLeanCloudCore/RxLeanCloudCore.iml" filepath="$PROJECT_DIR$/RxLeanCloudCore/RxLeanCloudCore.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rxleancloudandroid/rxleancloudandroid.iml" filepath="$PROJECT_DIR$/rxleancloudandroid/rxleancloudandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RxLeanCloudAndroid/rxleancloudandroid.iml" filepath="$PROJECT_DIR$/RxLeanCloudAndroid/rxleancloudandroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/src.iml" filepath="$PROJECT_DIR$/src.iml" />
     </modules>
   </component>

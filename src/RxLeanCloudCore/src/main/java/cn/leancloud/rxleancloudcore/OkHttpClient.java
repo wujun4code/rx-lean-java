@@ -6,11 +6,15 @@ import io.reactivex.*;
  * Created by wujun on 06/06/2017.
  */
 
-class OkHttpClient implements IHttpClient {
+public class OkHttpClient implements IAVExecutor {
     OkHttpClient client = new OkHttpClient();
 
-    @Override
-    public Observable<HttpResponse> execute(HttpRequest httpRequest) {
+    public Observable<AVResponse> execute(AVRequest avRequest) {
+        HttpRequest httpRequest = avRequest.http();
         return null;
+    }
+
+    public boolean canAchieve(AVRequest avRequest) {
+        return avRequest.app.isHttpSchema();
     }
 }

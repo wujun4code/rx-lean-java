@@ -10,12 +10,12 @@ import io.reactivex.functions.Function;
  */
 
 public class ObjectController {
-    private AVExecutor executor;
+    private AVExecutorSelector executorSelector;
     private AVEncoder encoder;
     private AVDecoder decoder;
 
-    public ObjectController(AVExecutor _executor, AVEncoder _encoder, AVDecoder _decoder) {
-        this.executor = _executor;
+    public ObjectController(AVExecutorSelector _executor, AVEncoder _encoder, AVDecoder _decoder) {
+        this.executorSelector = _executor;
         this.encoder = _encoder;
         this.decoder = _decoder;
     }
@@ -28,13 +28,10 @@ public class ObjectController {
     public Observable<MutableObjectState> save(MutableObjectState state, Map<String, Object> estimatedData, String sesstionToken) {
         Map<String, Object> unEncoded = state.mergeOperations(estimatedData);
         Map<String, Object> encoded = this.encoder.Encode(unEncoded);
-        AVRequest avRequest = new AVRequest();
-        avRequest.body = encoded;
-        boolean toUpdate = state.objectId != null && !state.objectId.isEmpty();
-        avRequest.app = state.app;
-        avRequest.relativeUri = toUpdate ? String.format("/classes/%s/%s", state.className, state.objectId) : String.format("/classes/%s", state.className);
-        avRequest.op = toUpdate ? "PUT" : "POST";
-        return this.executor.execute(avRequest).map(new Function<AVResponse, MutableObjectState>() {
+
+        AVRequest avRequest = AVRequest.createObjectRequest(encoded, state);
+
+        return this.executorSelector.select(avRequest).execute(avRequest).map(new Function<AVResponse, MutableObjectState>() {
             @Override
             public MutableObjectState apply(AVResponse avResponse) throws Exception {
                 MutableObjectState serverState = decode(avResponse);

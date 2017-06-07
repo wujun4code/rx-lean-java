@@ -28,6 +28,14 @@ public class RxAVObject {
 
     }
 
+    private void mergeSavedResult(MutableObjectState state) {
+
+    }
+
+    private void applyFetchedResult() {
+
+    }
+
     public void set(String key, Object value) {
         estimatedData.put(key, value);
     }
@@ -41,9 +49,11 @@ public class RxAVObject {
     }
 
     public Observable<Boolean> save() {
-        return this.getController().save(state,estimatedData,"").map(new Function<MutableObjectState, Boolean>() {
+        final RxAVObject self = this;
+        return this.getController().save(state, estimatedData, "").map(new Function<MutableObjectState, Boolean>() {
             @Override
             public Boolean apply(MutableObjectState mutableObjectState) throws Exception {
+                self.mergeSavedResult(state);
                 return true;
             }
         });

@@ -46,9 +46,14 @@ public class RxAVApp {
         return this;
     }
 
+    public RxAVApp setApi(String _api) {
+        this.api = _api;
+        return this;
+    }
+
     public RxAVApp schema(String _schema) {
         this.schema = _schema;
-        return  this;
+        return this;
     }
 
     private Map<String, String> headers;
@@ -63,6 +68,7 @@ public class RxAVApp {
 
         return headers;
     }
+
 
     public String getUrl(String relativeUri) {
         if (relativeUri.startsWith("/push")) {
