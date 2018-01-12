@@ -2,94 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8b9bd1-b402-4445-a6c8-30e4950843ef" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/.name" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/libraries/Gradle__com_alibaba_fastjson_1_1_67_android.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/libraries/fastjson_1_1_67_android.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/libraries/junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/libraries/okhttp_3_9_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/libraries/okio_1_13_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/libraries/reactive_streams_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/libraries/rxjava_2_1_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/runConfigurations.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/src/main/java/rx/leancloud/android/RxLeanCloudJavaAndroid.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/src/main/java/rx/leancloud/android/RxLeanCloudJavaAndroidHttpClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/src/main/java/rx/leancloud/android/RxLeanCloudJavaAndroidJSONClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/src/test/java/RxAVObjectTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Android/src/test/java/TestBase.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/General/gradlew" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/General/gradlew.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/General/src/main/java/rx/leancloud/general/RxLeanCloudJavaGeneral.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/General/src/main/java/rx/leancloud/general/RxLeanCloudJavaGeneralJSONClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/root.ipr" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/root.iws" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/codeStyles/codeStyleConfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/libraries/Gradle__com_alibaba_fastjson_1_2_44.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_9_1.xml" afterPath="$PROJECT_DIR$/Android/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_9_1.xml" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0.xml" afterPath="$PROJECT_DIR$/Android/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0.xml" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_1_8.xml" afterPath="$PROJECT_DIR$/Android/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_1_8.xml" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/Android/.idea/libraries/Gradle__junit_junit_4_12.xml" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/Android/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2.xml" afterPath="$PROJECT_DIR$/Android/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2.xml" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/uiDesigner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/build.gradle" afterPath="$PROJECT_DIR$/Core/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/Core/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/Core/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/gradlew" afterPath="$PROJECT_DIR$/Android/gradlew" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/gradlew.bat" afterPath="$PROJECT_DIR$/Android/gradlew.bat" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/settings.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/core/LeanCloud.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/core/LeanCloud.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/core/LeanCloudApp.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/core/LeanCloudApp.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/core/RxAVClient.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/core/RxAVClient.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/core/RxAVCorePlugins.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/core/RxAVCorePlugins.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/core/RxAVException.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/core/RxAVException.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/core/RxAVObject.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/core/RxAVObject.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/core/RxAVQuery.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/core/RxAVQuery.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/AVCommand.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/AVCommand.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/AVCommandResponse.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/AVCommandResponse.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/AVDecoder.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/AVDecoder.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/AVEncoder.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/AVEncoder.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/AVHttpCommandRunner.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/AVHttpCommandRunner.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/AVInternalPlugins.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/AVInternalPlugins.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/AVObjectController.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/AVObjectController.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/AVObjectState.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/AVObjectState.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/HttpRequest.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/HttpRequest.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/HttpResponse.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/HttpResponse.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/IAVCommandRunner.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/IAVCommandRunner.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/IAVDecoder.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/IAVDecoder.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/IAVEncoder.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/IAVEncoder.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/IHttpClient.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/IHttpClient.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/Core/src/main/java/leancloud/internal/IJSONClient.java" afterPath="$PROJECT_DIR$/Core/src/main/java/rx/leancloud/internal/IJSONClient.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/General/build.gradle" afterPath="$PROJECT_DIR$/General/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/General/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/General/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/General/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/General/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/General/gradlew" afterPath="$PROJECT_DIR$/Core/gradlew" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/General/gradlew.bat" afterPath="$PROJECT_DIR$/Core/gradlew.bat" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/General/settings.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/General/src/main/java/HttpClient/GeneralHttpClient.java" afterPath="$PROJECT_DIR$/General/src/main/java/rx/leancloud/general/RxLeanCloudJavaGeneralHttpClient.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/General/src/main/java/JSON/GeneralJSONClient.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/General/src/main/java/RxLeanCloudJavaGeneral.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/General/src/test/java/RxAVObjectTest.java" afterPath="$PROJECT_DIR$/General/src/test/java/RxAVObjectTest.java" />
-      <change beforePath="$PROJECT_DIR$/../../RxLeanCloudJava/General/src/test/java/TestBase.java" afterPath="$PROJECT_DIR$/General/src/test/java/TestBase.java" />
+      <change beforePath="$PROJECT_DIR$/Android/build.gradle" afterPath="$PROJECT_DIR$/Android/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/root.ipr" afterPath="$PROJECT_DIR$/root.ipr" />
+      <change beforePath="$PROJECT_DIR$/root.iws" afterPath="$PROJECT_DIR$/root.iws" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -151,7 +66,84 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/src/test/java/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RxAVObjectTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/src/test/java/RxAVObjectTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Android/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/local.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="android_main.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/android_main.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="android.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/android.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="android_test.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/android_test.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>26</find>
+      <find>sdk</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -739,8 +731,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="9094584591000" />
-        <entry key="$PROJECT_DIR$/Android/build.gradle" value="2791846288" />
+        <entry key="$PROJECT_DIR$" value="9094587931000" />
+        <entry key="$PROJECT_DIR$/Android/build.gradle" value="2507534850" />
         <entry key="$PROJECT_DIR$/Android/gradle/wrapper/gradle-wrapper.properties" value="566444372" />
         <entry key="$PROJECT_DIR$/Android/settings.gradle" value="117939390" />
         <entry key="$PROJECT_DIR$/Core/build.gradle" value="3336754800" />
@@ -953,12 +945,14 @@
         <option value="$PROJECT_DIR$/Android/settings.gradle" />
         <option value="$PROJECT_DIR$/General/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/Android/android.iml" />
         <option value="$PROJECT_DIR$/Android/build.gradle" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1619" />
+    <option name="y" value="108" />
     <option name="width" value="1920" />
     <option name="height" value="980" />
   </component>
@@ -985,6 +979,11 @@
             <path>
               <item name="RxLeanCloudJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="root" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="RxLeanCloudJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="root" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1217,7 +1216,8 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="980" extended-state="0" />
+    <frame x="-1680" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1232,9 +1232,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23695421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2716728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23216188" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2851038" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1245,7 +1246,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1321,14 +1321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android/src/test/java/RxAVObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1353,21 +1345,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Android/out/production/classes/rx/leancloud/android/RxLeanCloudJavaAndroid.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#499#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,9 +1357,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1614">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#3273#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/src/test/java/RxAVObjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/android_main.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/android.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/android_test.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
