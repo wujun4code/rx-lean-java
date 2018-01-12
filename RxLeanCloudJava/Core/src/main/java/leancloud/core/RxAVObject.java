@@ -1,6 +1,7 @@
 package leancloud.core;
 
-import io.reactivex.Observable;
+import io.reactivex.*;
+import io.reactivex.schedulers.Schedulers;
 import leancloud.internal.AVInternalPlugins;
 import leancloud.internal.AVObjectController;
 import leancloud.internal.AVObjectState;
@@ -36,21 +37,46 @@ public class RxAVObject {
         this.localEstimatedData.put(key, value);
     }
 
-    public void save() {
+    protected boolean saveInternal() throws RxAVException {
         this.state.serverData = this.localEstimatedData;
         AVObjectState serverState = getObjectController().save(this.state);
+        if (serverState == null)
+            return false;
         this.handleSaved(serverState);
+        return true;
     }
+
+    public Single<Boolean> rxSave() {
+        return Single.create((source) -> {
+            try {
+                source.onSuccess(this.saveInternal());
+            } catch (RxAVException e) {
+                source.onError(e);
+            }
+        });
+    }
+
+    public void save() {
+        try {
+            this.saveInternal();
+        } catch (RxAVException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void saveAsync() {
+        this.rxSave().observeOn(Schedulers.single()).subscribe(System.out::println, Throwable::printStackTrace);
+    }
+
+
 
     protected void handleSaved(AVObjectState serverState) {
         this.state.mergeInternalFields(serverState);
     }
-
 
     public static RxAVObject createWithoutData(String className, String objectId) {
         RxAVObject avObject = new RxAVObject(className);
         avObject.setObjectId(objectId);
         return avObject;
     }
-
 }

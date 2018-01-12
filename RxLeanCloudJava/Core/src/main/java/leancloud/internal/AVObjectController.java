@@ -2,6 +2,7 @@ package leancloud.internal;
 
 import leancloud.core.RxAVClient;
 import leancloud.core.RxAVCorePlugins;
+import leancloud.core.RxAVException;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -23,13 +24,15 @@ public class AVObjectController {
         this.commandRunner = commandRunner;
     }
 
-    public AVObjectState save(AVObjectState state) {
+    public AVObjectState save(AVObjectState state) throws RxAVException {
         AVCommand command = this.packRequest(state);
         try {
             AVCommandResponse response = this.commandRunner.execute(command);
             return this.unpackResponse(response);
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (RxAVException e) {
+            throw e;
         }
         return null;
     }
