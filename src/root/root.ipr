@@ -56,15 +56,15 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Android/android.iml" filepath="$PROJECT_DIR$/Android/android.iml" group="android" />
-      <module fileurl="file://$PROJECT_DIR$/Android/android_main.iml" filepath="$PROJECT_DIR$/Android/android_main.iml" group="android" />
-      <module fileurl="file://$PROJECT_DIR$/Android/android_test.iml" filepath="$PROJECT_DIR$/Android/android_test.iml" group="android" />
-      <module fileurl="file://$PROJECT_DIR$/Core/core.iml" filepath="$PROJECT_DIR$/Core/core.iml" group="core" />
-      <module fileurl="file://$PROJECT_DIR$/Core/core_main.iml" filepath="$PROJECT_DIR$/Core/core_main.iml" group="core" />
-      <module fileurl="file://$PROJECT_DIR$/Core/core_test.iml" filepath="$PROJECT_DIR$/Core/core_test.iml" group="core" />
-      <module fileurl="file://$PROJECT_DIR$/General/general.iml" filepath="$PROJECT_DIR$/General/general.iml" group="general" />
-      <module fileurl="file://$PROJECT_DIR$/General/general_main.iml" filepath="$PROJECT_DIR$/General/general_main.iml" group="general" />
-      <module fileurl="file://$PROJECT_DIR$/General/general_test.iml" filepath="$PROJECT_DIR$/General/general_test.iml" group="general" />
+      <module fileurl="file://$PROJECT_DIR$/android/android.iml" filepath="$PROJECT_DIR$/android/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/android/android_main.iml" filepath="$PROJECT_DIR$/android/android_main.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/android/android_test.iml" filepath="$PROJECT_DIR$/android/android_test.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/core/core_main.iml" filepath="$PROJECT_DIR$/core/core_main.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/core/core_test.iml" filepath="$PROJECT_DIR$/core/core_test.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/general/general.iml" filepath="$PROJECT_DIR$/general/general.iml" group="general" />
+      <module fileurl="file://$PROJECT_DIR$/general/general_main.iml" filepath="$PROJECT_DIR$/general/general_main.iml" group="general" />
+      <module fileurl="file://$PROJECT_DIR$/general/general_test.iml" filepath="$PROJECT_DIR$/general/general_test.iml" group="general" />
       <module fileurl="file://$PROJECT_DIR$/src-RxLeanCloudJava.iml" filepath="$PROJECT_DIR$/src-RxLeanCloudJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/src-RxLeanCloudJava_main.iml" filepath="$PROJECT_DIR$/src-RxLeanCloudJava_main.iml" group="RxLeanCloudJava" />
       <module fileurl="file://$PROJECT_DIR$/src-RxLeanCloudJava_test.iml" filepath="$PROJECT_DIR$/src-RxLeanCloudJava_test.iml" group="RxLeanCloudJava" />

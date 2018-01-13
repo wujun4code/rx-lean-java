@@ -65,10 +65,8 @@ public class RxAVObject {
     }
 
     public void saveAsync() {
-        this.rxSave().observeOn(Schedulers.single()).subscribe(System.out::println, Throwable::printStackTrace);
+        this.rxSave().subscribeOn(Schedulers.computation()).observeOn(Schedulers.io()).subscribe();
     }
-
-
 
     protected void handleSaved(AVObjectState serverState) {
         this.state.mergeInternalFields(serverState);

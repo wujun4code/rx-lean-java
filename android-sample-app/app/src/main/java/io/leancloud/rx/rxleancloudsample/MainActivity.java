@@ -5,9 +5,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import io.reactivex.Scheduler;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.schedulers.Schedulers;
 import rx.leancloud.android.RxLeanCloudJavaAndroid;
 import rx.leancloud.core.LeanCloud;
 import rx.leancloud.core.RxAVObject;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 RxAVObject todo = new RxAVObject("JavaTodo");
-                todo.set("foo", "bar");
-                todo.save();
-                System.out.println(todo.getObjectId());
+                todo.set("foo", "androidBar");
+                // todo.rxSave().subscribeOn(Schedulers.newThread()).observeOn(AndroidSchedulers.mainThread()).subscribe();
+                todo.saveAsync();
             }
         });
     }
